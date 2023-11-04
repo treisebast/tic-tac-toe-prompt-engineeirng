@@ -9,7 +9,6 @@
     transition: ease-in-out 225ms;
     font-size: 0.75em;
     padding: 8px;
-    background-color: aliceblue;
     width: fit-content;
 }
 
@@ -19,37 +18,33 @@
     scale: 1.1;
 }
 
-.footer {
-    /* background-color: rgb(0, 150, 255, 0.20); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: static;
-    padding: 32px;
-    margin-top: 15px;
-    font-weight: 500;
+.imprint-center{
+    margin-left: 5vw ;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    font-size: 16px;
+    line-height: 150%;
+}
+.imprint-center h1{
+    font-size: 2em;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-.footer a {
-    text-decoration: none;
-    color: black;
-}
-
-.footer a:hover {
-    color: deepskyblue;
-    transition: ease-in 125ms;
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    text-shadow: 0px 0px 1px rgba(0, 100, 255, 0.15);
+.imprint-center nav{
+    font-size: 1.75em;
+    margin-bottom: 8vh;
 }
 
 .imprint-content a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .imprint-content a:hover {
-    color: rgb(86, 154, 255);
+    color: rgb(198, 220, 254);
     transition: ease-in 125ms;
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -57,15 +52,12 @@
     text-shadow: 0px 0px 1px rgba(80, 150, 255, 0.3);
 }
 
-@media (max-width:400px) {
-    .imprint-content{
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-    .card-body-imprint{
-        padding-left: 6px !important;
-        padding-right: 6px !important;
-        font-size: 1rem;
-    }
+.nav-imprint{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 225ms;
+}
 
+.nav-imprint:hover{
+   scale: 1.1;
 }
