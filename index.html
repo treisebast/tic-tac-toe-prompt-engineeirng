@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imprint.css">
+
+    
 
 </head>
 
-<body>
+<body onload="init()">
 
-    
+    <h1>Tic Tac Toe</h1>
+    <div id="content"></div>
+
+    <div class="center mt-32">
+        <button class="button" onclick="resetGame()">Restart Game</button>
+    </div>
+
+    <div>
+        <a class="btn-imprint" href="imprint.html">Impressum</a>
+    </div>
 
     <script src="script.js"></script>
-    
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="0460a567-6eba-4899-a055-0b271c957ca6"
+        data-blockingmode="auto" type="text/javascript">
+        </script>
+
 </body>
+
 </html>
