@@ -9,6 +9,8 @@
     transition: ease-in-out 225ms;
     font-size: 0.75em;
     padding: 8px;
+    background-color: aliceblue;
+    width: fit-content;
 }
 
 .btn-imprint:hover{
